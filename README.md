@@ -1,1 +1,1 @@
-# quantum-intermittency
+# quantum-intermittency [qi]
