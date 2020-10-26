@@ -10,7 +10,7 @@ def readme():
 setup(
     name="QuantumBlink",
     version="1.0.0",
-    description="A Python package to flouresence intermittency data of quantum dots",
+    description="A Python package to analyze flouresence intermittency data of quantum dots",
     long_description=readme(),
     long_description_content_type="text/markdown",
     url="https://github.com/AnoopANair/QuantumBlink",
