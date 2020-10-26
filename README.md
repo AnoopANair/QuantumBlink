@@ -55,6 +55,7 @@ IntensityData  =  IntensityDataAcquire(PATH)
 
 > 1.**INPUT**
 > * PATH = "the path to the csv data file"
+
 > 2.**OUTPUT**
 > * IntensityData = array of intesity values
 
@@ -71,6 +72,7 @@ Positives , Negatives =  Power_dist_one(PATH,Threshold,exptime)
 > * PATH = "the path to the csv data file".
 > * Threshold = This specifies the **instensity level** above which events are treated as **positve** and below which events are treated as **negative**.
 > * exptime = The time interval between each consecutive event. 
+
 > 2.**OUTPUT**
 > * Positives = array of ON time durations
 > * Negatives = array of OFF time durations
@@ -84,6 +86,7 @@ Pdf_accept_off,Offtime =  Offtime_pdf(PATH,Threshold,exptime)
 > * PATH = "the path to the csv data file".
 > * Threshold = This specifies the **instensity level** above which events are treated as **positve** and below which events are treated as **negative**.
 > * exptime = The time interval between each consecutive event. 
+
 > 2.**OUTPUT**
 > * Pdf_accept_off = The probability distribution of OFF-time durations
 > * Offtime = array of distinct OFF-time durations
@@ -97,6 +100,7 @@ Pdf_accept_on,Ontime =  Ontime_pdf(PATH,Threshold,exptime)
 > * PATH = "the path to the csv data file".
 > * Threshold = This specifies the **instensity level** above which events are treated as **positve** and below which events are treated as **negative**.
 > * exptime = The time interval between each consecutive event. 
+
 > 2.**OUTPUT**
 > * Pdf_accept_on = The probability distribution of ON-time durations
 > * Ontime = array of distinct ON-time durations
@@ -113,6 +117,7 @@ On_ratio =  OnTimeFraction(PATH,Threshold,exptime)
 > * PATH = "the path to the csv data file".
 > * Threshold = This specifies the **instensity level** above which events are treated as **positve** and below which events are treated as **negative**.
 > * exptime = The time interval between each consecutive event. 
+
 > 2.**OUTPUT**
 > * On_ratio = The fraction of ON events.  
 
@@ -126,6 +131,7 @@ Off_ratio =  OffTimeFraction(PATH,Threshold,exptime)
 > * PATH = "the path to the csv data file".
 > * Threshold = This specifies the **instensity level** above which events are treated as **positve** and below which events are treated as **negative**.
 > * exptime = The time interval between each consecutive event. 
+
 > 2.**OUTPUT**
 > * Off_ratio = The fraction of OFF events.  
 
@@ -139,6 +145,7 @@ ON_OFF_ratio =  OnOffRatio(PATH,Threshold,exptime)
 > * PATH = "the path to the csv data file".
 > * Threshold = This specifies the **instensity level** above which events are treated as **positve** and below which events are treated as **negative**.
 > * exptime = The time interval between each consecutive event. 
+
 > 2.**OUTPUT**
 > * ON_OFF_ratio = The ratio of ON to OFF events.  
 
@@ -151,7 +158,8 @@ OFF_ON_ratio =  OffOnRatio(PATH,Threshold,exptime)
 > 1.**INPUT**
 > * PATH = "the path to the csv data file".
 > * Threshold = This specifies the **instensity level** above which events are treated as **positve** and below which events are treated as **negative**.
-> * exptime = The time interval between each consecutive event. 
+> * exptime = The time interval between each consecutive event.
+
 > 2.**OUTPUT**
 > * OFF_ON_ratio = The ratio of OFF to ON events.  
 
@@ -164,7 +172,8 @@ TOTAL_ONTIME =  TotalOnTime(PATH,Threshold,exptime)
 > 1.**INPUT**
 > * PATH = "the path to the csv data file".
 > * Threshold = This specifies the **instensity level** above which events are treated as **positve** and below which events are treated as **negative**.
-> * exptime = The time interval between each consecutive event. 
+> * exptime = The time interval between each consecutive event.
+
 > 2.**OUTPUT**
 > * TOTAL_ONTIME = The total time occupied by ON events.  
 
@@ -177,7 +186,8 @@ TOTAL_OFFTIME =  TotalOffTime(PATH,Threshold,exptime)
 > 1.**INPUT**
 > * PATH = "the path to the csv data file".
 > * Threshold = This specifies the **instensity level** above which events are treated as **positve** and below which events are treated as **negative**.
-> * exptime = The time interval between each consecutive event. 
+> * exptime = The time interval between each consecutive event.
+
 > 2.**OUTPUT**
 > * TOTAL_OFFTIME = The total time occupied by OFF events.  
 
@@ -190,6 +200,7 @@ AverageIntensity = AverageIntensity(PATH)
 ```
 > 1.**INPUT**
 > * PATH = "the path to the csv data file".
+
 > 2.**OUTPUT**
 > * AverageIntensity = The Average intensity calculated from the data.  
 
@@ -199,6 +210,7 @@ MaxIntensity = MaxIntensity(PATH)
 ```
 > 1.**INPUT**
 > * PATH = "the path to the csv data file".
+
 > 2.**OUTPUT**
 > * MaxIntensity = The maximum intensity calculated from the data.  
 
@@ -208,6 +220,7 @@ MinIntensity = MinIntensity(PATH)
 ```
 > 1.**INPUT**
 > * PATH = "the path to the csv data file".
+
 > 2.**OUTPUT**
 > * MinIntensity = The minimum intensity calculated from the data.  
 
@@ -221,6 +234,7 @@ Intensity_average = AverageIntensityBetween(PATH,Threshold1,Threshold2)
 > * PATH = "the path to the csv data file".
 > * Threshold1 = The upper threshold
 > * Threshold2 = The lower threshold
+
 > 2.**OUTPUT**
 > * Intensity_average = The average intensity between the upper and lower threshold
 
@@ -238,7 +252,8 @@ XX,YY,R1 =  OnOffCorr(PATH,Threshold,exptime)
 > 1.**INPUT**
 > * PATH = "the path to the csv data file".
 > * Threshold = This specifies the **instensity level** above which events are treated as **positve** and below which events are treated as **negative**.
-> * exptime = The time interval between each consecutive event. 
+> * exptime = The time interval between each consecutive event.
+
 > 2.**OUTPUT**
 > * XX = array of ON/OFF events .
 > * YY = array of ON/OFF events .
@@ -251,6 +266,7 @@ X_x_log,Y_y_log,R1 = OnOffCorrLog(PATH,Threshold,exptime)
 > * PATH = "the path to the csv data file".
 > * Threshold = This specifies the **instensity level** above which events are treated as **positve** and below which events are treated as **negative**.
 > * exptime = The time interval between each consecutive event. 
+
 > 2.**OUTPUT**
 > * X_x_log = array of log value of ON/OFF events .
 > * Y_y_log = array of log value of ON/OFF events .
@@ -267,6 +283,7 @@ XX,YY,R1 OnOnCorr(PATH,Threshold,exptime)
 > * PATH = "the path to the csv data file".
 > * Threshold = This specifies the **instensity level** above which events are treated as **positve** and below which events are treated as **negative**.
 > * exptime = The time interval between each consecutive event. 
+
 > 2.**OUTPUT**
 > * XX = array of ON events .
 > * YY = array of ON events .
@@ -279,6 +296,7 @@ X_x_log,Y_y_log,R1 = OnOnCorrLog(PATH,Threshold,exptime)
 > * PATH = "the path to the csv data file".
 > * Threshold = This specifies the **instensity level** above which events are treated as **positve** and below which events are treated as **negative**.
 > * exptime = The time interval between each consecutive event. 
+
 > 2.**OUTPUT**
 > * X_x_log = array of log value of ON events .
 > * Y_y_log = array of log value of ON events .
@@ -293,6 +311,7 @@ XX,YY,R1 =  OffOffCorr(PATH,Threshold,exptime)
 > * PATH = "the path to the csv data file".
 > * Threshold = This specifies the **instensity level** above which events are treated as **positve** and below which events are treated as **negative**.
 > * exptime = The time interval between each consecutive event. 
+
 > 2.**OUTPUT**
 > * XX = array of OFF events .
 > * YY = array of OFF events .
@@ -305,6 +324,7 @@ X_x_log,Y_y_log,R1 OffOffCorrLog(PATH,Threshold,exptime)
 > * PATH = "the path to the csv data file".
 > * Threshold = This specifies the **instensity level** above which events are treated as **positve** and below which events are treated as **negative**.
 > * exptime = The time interval between each consecutive event. 
+
 > 2.**OUTPUT**
 > * X_x_log = array of log value of OFF events .
 > * Y_y_log = array of log value of OFF events .
