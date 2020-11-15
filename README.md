@@ -4,7 +4,7 @@
 
 # **INTRODUCTION**
 
-QunatumBlink is a python module developed by **Anoop A Nair**, under the supervison of **Vishnu E K,Ph.D [@ K.G.T. Labs]**.  It helps in the **analysis of flouresence intermittency data** obtained from the MT-300 single photon detector. The module when provided with the Intensity vs Time trace derives the **ON/OFF event PDFs** and the correlations in data indicating the **memory effect**. 
+QuantumBlink is a python module developed by **Anoop A Nair**, under the supervison of **Vishnu E K,Ph.D [@ K.G.T. Labs]**.  It helps in the **analysis of flouresence intermittency data** obtained from the MT-300 single photon detector. The module when provided with the Intensity vs Time trace derives the **ON/OFF event PDFs** and the correlations in data indicating the **memory effect**. 
 
 
 # **HOW TO INSTALL**
